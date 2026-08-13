@@ -443,6 +443,32 @@ ol {
   font-weight: 600;
 }
 
+.cert-block {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+
+.cert-block h3 {
+  font-size: 1.15rem;
+  margin-bottom: 0.85rem;
+}
+
+.cert-block ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.cert-block li {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.4rem 0.75rem;
+  background: rgba(255, 255, 255, 0.55);
+}
+
 /* Experience */
 .timeline {
   display: grid;

@@ -1,4 +1,4 @@
-import { education, profile } from "../../data/portfolio";
+import { certifications, education, profile } from "../../data/portfolio";
 import profileImg from "../../images/profile.png";
 
 function About() {
@@ -21,12 +21,11 @@ function About() {
           <div className="about-copy">
             <p className="about-lead">{profile.summary}</p>
             <p className="about-side">
-              Outside work I run{" "}
+              Outside work I travel, swim, train, and keep learning — including through{" "}
               <a href={profile.links.youtube} target="_blank" rel="noreferrer">
                 Kartik Codes
               </a>{" "}
-              on YouTube, practice competitive programming, and keep sharpening .NET,
-              React, and system design fundamentals.
+              on YouTube. Comfortable working in English and Hindi.
             </p>
           </div>
         </div>
@@ -42,6 +41,15 @@ function About() {
               <span>{item.period}</span>
             </article>
           ))}
+        </div>
+
+        <div className="cert-block">
+          <h3>Certifications</h3>
+          <ul>
+            {certifications.map((cert) => (
+              <li key={cert}>{cert}</li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>

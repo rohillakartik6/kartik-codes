@@ -1,125 +1,147 @@
 export const profile = {
   name: "Kartik Rohilla",
   brand: "Kartik Codes",
-  title: "Software Engineer",
-  location: "Delhi NCR, India",
-  email: "rohillakartik6@gmail.com",
-  tagline: "Building clean, reliable web apps with React and .NET.",
+  title: "Module Lead Software Developer",
+  location: "New Delhi, India",
+  email: "kartik.codes1998@gmail.com",
+  phone: "+91 8750262635",
+  phoneHref: "tel:+918750262635",
+  tagline: "C# .NET, React.js, and Azure — clean APIs, reliable databases, and frontends that ship.",
   summary:
-    "Software engineer with 4+ years shipping full-stack products — from React frontends to .NET APIs, MySQL, and Azure. I care about readable code, solid fundamentals, and interfaces that feel fast.",
+    "Results-driven Senior Software Engineer with 4+ years building and maintaining enterprise-scale software. Specialized in C# .NET, Azure, and distributed systems. Track record designing high-availability databases, building scalable APIs, and optimizing performance — with a focus on clean code, design patterns, and secure, stable delivery.",
   links: {
     github: "https://github.com/rohillakartik6",
     linkedin: "https://www.linkedin.com/in/kartik-codes",
     youtube: "https://www.youtube.com/channel/UC4gssBp0ShpoZ932ifJxJNw",
-    email: "mailto:rohillakartik6@gmail.com",
+    email: "mailto:kartik.codes1998@gmail.com",
   },
 };
 
 export const experience = [
   {
-    role: "Lead Software Engineer",
+    role: "Module Lead Software Developer",
     company: "Sopra Steria",
-    location: "Noida",
-    period: "Sep 2025 — Dec 2025",
+    location: "New Delhi, India",
+    period: "Sep 2025 — Present",
     highlights: [
-      "Led React.js frontend development for enterprise applications",
-      "Integrated REST APIs and improved UI performance",
-      "Ran code reviews and debugging across the frontend stack",
+      "Developed React.js frontends for enterprise MERN projects",
+      "Contributed to testing, debugging, and quality assurance",
     ],
   },
   {
-    role: "Senior Engineer",
+    role: "Senior Software Engineer",
     company: "IKS Health",
-    location: "Mumbai",
-    period: "May 2024 — Sep 2025",
+    location: "New Delhi, India",
+    period: "Dec 2024 — Sep 2025",
     highlights: [
-      "Delivered features for healthcare technology platforms as a senior engineer",
-      "Collaborated with cross-functional teams on reliable, production-ready UI and services",
-      "Strengthened code quality through reviews, debugging, and iterative delivery",
+      "Architected scalable backend services using C# .NET Core for an enterprise healthcare platform",
+      "Designed high-availability database systems with SQL optimization",
+      "Built RESTful APIs following architectural guidelines and design patterns",
+      "Implemented CI/CD pipelines for continuous integration and deployment",
+      "Collaborated with cross-functional teams to meet quality specifications",
+    ],
+  },
+  {
+    role: "Software Engineer",
+    company: "NeoSOFT",
+    location: "New Delhi, India",
+    period: "May 2024 — Nov 2024",
+    highlights: [
+      "Developed full-stack solutions using C# .NET and React.js for enterprise clients",
+      "Maintained features on web applications and distributed systems",
+      "Enforced clean code principles during code reviews",
+      "Optimized algorithms for application performance",
+      "Troubleshot technical issues across the development lifecycle",
     ],
   },
   {
     role: "Associate Software Engineer",
     company: "Mind IT Systems",
-    location: "Delhi, India",
-    period: "Sep 2021 — Apr 2024",
+    location: "New Delhi, India",
+    period: "Jun 2022 — Apr 2024",
     highlights: [
-      "Built and maintained applications with .NET, C#, React.js, and MySQL",
-      "Worked with Azure for deployment and cloud-hosted services",
-      "Grew from fundamentals into full-stack delivery across APIs and SPA clients",
+      "Led the Sujata Inventory Management System — reduced stock wastage by 20%",
+      "Developed ASP.NET MVC web apps and APIs for client projects",
+      "Designed SQL database schemas for transactional systems",
+      "Participated in agile development with Git version control",
+    ],
+  },
+  {
+    role: "Associate",
+    company: "Concentrix",
+    location: "New Delhi, India",
+    period: "Sep 2021 — Jun 2022",
+    highlights: [
+      "Started professional career supporting software delivery in an associate role",
     ],
   },
 ];
 
 export const education = [
   {
-    degree: "Master of Computer Applications (MCA)",
+    degree: "MCA — Computers",
     school: "Indira Gandhi National Open University (IGNOU)",
-    focus: "Computer Software Engineering",
-    period: "2021 — 2023",
+    focus: "",
+    period: "2023",
   },
   {
-    degree: "Bachelor of Computer Applications (BCA)",
+    degree: "BCA — Computers",
     school: "Indira Gandhi National Open University (IGNOU)",
-    focus: "Computer Science",
-    period: "2016 — 2020",
+    focus: "",
+    period: "2020",
   },
 ];
 
+export const certifications = [
+  "Introduction to C++",
+  "Data Structures and Algorithms",
+  "Full Stack Web Development — MERN",
+];
+
 export const skills = {
-  Frontend: ["React.js", "JavaScript", "HTML5", "CSS3", "Bootstrap"],
-  Backend: ["C#", ".NET / .NET Core", "REST APIs", "Entity Framework", "FluentValidation"],
-  Data: ["MySQL", "SQL optimization", "LINQ"],
-  Cloud: ["Azure", "Deployment", "MSAL / Auth flows"],
-  Practices: ["Code reviews", "Debugging", "SOLID", "Async/await", "System design"],
+  Frontend: ["React.js", "JavaScript", "TypeScript", "Ajax"],
+  Backend: ["C#", ".NET Core", "ASP.NET", "ASP.NET MVC", "REST APIs"],
+  Data: ["SQL", "MySQL", "Database design", "Database optimization"],
+  "Cloud & DevOps": ["Azure Active Directory", "Kubernetes", "IIS", "Containerization", "CI/CD"],
+  Practices: [
+    "Clean code",
+    "Design patterns",
+    "OOP",
+    "Unit test automation",
+    "Debugging",
+    "Performance optimization",
+    "Git",
+    "Visual Studio",
+  ],
 };
 
 export const projects = [
   {
-    title: "CRUD Application (API + SPA)",
+    title: "Sujata Inventory Management",
     description:
-      "Full-stack CRUD stack with a C#/.NET API and a JavaScript SPA client — create, read, update, and delete flows end to end.",
-    tags: ["C#", ".NET", "JavaScript", "REST"],
-    links: [
-      { label: "API", href: "https://github.com/rohillakartik6/CrudApplicationApi" },
-      { label: "SPA", href: "https://github.com/rohillakartik6/CrudApplicationSPA" },
-    ],
+      "Led inventory management for raw materials at Sujata (electronics, mixers, and grinders). Engineered a solution that reduced raw-material stock wastage by 20%, with optimized database queries and automated tracking.",
+    tags: ["ASP.NET", "SQL", "Inventory"],
+    links: [],
   },
   {
-    title: "SuperHeros API",
+    title: "Hourhealth",
     description:
-      "Practice Web API covering GET, POST, and PUT endpoints — focused on clean controller patterns and resource handling.",
-    tags: ["C#", "ASP.NET", "REST"],
-    links: [{ label: "GitHub", href: "https://github.com/rohillakartik6/SuperHerosApi" }],
+      "Healthcare services application where customers can request nursing facilities from registered providers or individual nurses, improving how care is requested and delivered through the app.",
+    tags: [".NET", "Healthcare", "APIs"],
+    links: [],
   },
   {
-    title: "FluentValidation in Web API",
+    title: "Daksh India Organics",
     description:
-      ".NET Core 6 API demo applying FluentValidation for request validation and clearer API contracts.",
-    tags: [".NET 6", "FluentValidation", "C#"],
-    links: [
-      { label: "GitHub", href: "https://github.com/rohillakartik6/FluentValidationInWebAPi" },
-    ],
+      "Online storefront for Daksh India Organics, built so customers can browse and buy organic products.",
+    tags: ["Web", "E-commerce"],
+    links: [],
   },
   {
-    title: "Stroke Art",
+    title: "HRX",
     description:
-      "Visual CSS experiment exploring expressive stroke-based art and motion on the web.",
-    tags: ["CSS", "Creative coding"],
-    links: [{ label: "GitHub", href: "https://github.com/rohillakartik6/stroke-art" }],
-  },
-  {
-    title: "Five Planets",
-    description:
-      "Responsive page animating rotations of Earth, Mars, Jupiter, Saturn, and Uranus.",
-    tags: ["HTML", "CSS", "Animation"],
-    links: [{ label: "GitHub", href: "https://github.com/rohillakartik6/Five-Planets" }],
-  },
-  {
-    title: "Simon Game",
-    description:
-      "Classic Simon memory game built with JavaScript — pattern recall, feedback, and progressive difficulty.",
-    tags: ["JavaScript", "Game"],
-    links: [{ label: "GitHub", href: "https://github.com/rohillakartik6/Simon-Game" }],
+      "Human resource management platform to streamline employee HR processes for organizations.",
+    tags: ["HR", "Enterprise"],
+    links: [],
   },
 ];

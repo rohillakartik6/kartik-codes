@@ -6,7 +6,7 @@ function Projects() {
       <div className="section-inner">
         <div className="section-heading">
           <p className="eyebrow">Selected work</p>
-          <h2>Projects from the bench and beyond.</h2>
+          <h2>Client and product work from the resume.</h2>
         </div>
 
         <div className="project-list">

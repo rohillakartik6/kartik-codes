@@ -11,7 +11,9 @@ function Hero() {
       </div>
 
       <div className="hero-content">
-        <p className="hero-kicker reveal">Software Engineer · Delhi NCR</p>
+        <p className="hero-kicker reveal">
+          {profile.title} · {profile.location}
+        </p>
         <h1 className="hero-name reveal reveal-delay-1">{profile.name}</h1>
         <p className="hero-tagline reveal reveal-delay-2">{profile.tagline}</p>
 

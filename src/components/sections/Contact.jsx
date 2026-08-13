@@ -32,13 +32,15 @@ function Contact() {
           <p className="eyebrow">Contact</p>
           <h2>Let’s build something solid.</h2>
           <p className="section-lede">
-            Open to roles and collaborations across React, .NET, and full-stack product work.
+            Open to roles and collaborations across C# .NET, React.js, Azure, and full-stack
+            product work.
           </p>
         </div>
 
         <div className="contact-layout">
           <div className="contact-channels">
             <a href={profile.links.email}>{profile.email}</a>
+            <a href={profile.phoneHref}>{profile.phone}</a>
             <a href={profile.links.linkedin} target="_blank" rel="noreferrer">
               LinkedIn
             </a>
